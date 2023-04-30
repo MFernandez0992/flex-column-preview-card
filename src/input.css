@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p{ font-size: 15px; }
+
+.btn{
+    @apply bg-very-light-gray py-3 px-7 rounded-3xl mt-6 md:mt-20 font-lexend border-2 hover:text-white
+}
+
+.heading{
+    @apply font-big-shoulders font-extrabold my-10 text-very-light-gray text-4xl uppercase tracking-[1.2px]
+}
+
+.paragraphs{
+    @apply text-transparent-white-paragraphs font-lexend tracking-[1.2px] pb-3
+}
